@@ -40,6 +40,58 @@ body {
   width: 40px;
 }
 
+footer{
+    background-color: #333;
+}
+
+.footerlinks{
+    width: 100%;
+    padding: 30px 30px 10px ;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialmedia a i{
+    font-size: 2em;
+    color: #333;
+    opacity: 0.8;
+}
+
+.socialmedia a:hover{
+    background-color: #333;
+}
+
+.socialmedia a:hover i{
+    color: white;
+}
+
+.sites{
+    margin: 30px 0;
+}
+.sites ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.sites ul li a{
+    color:white;
+    margin: 12px;
+    text-decoration: none;
+    font-size: 1em;
+    opacity: 0.9;
+}
+
 @media screen and (max-width: 600px) {
   .nav a.icon {
     float: right;
