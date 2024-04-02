@@ -44,6 +44,30 @@ footer{
     background-color: #333;
 }
 
+.footerlinks{
+    width: 100%;
+    padding: 80px 50px 20px ;
+}
+
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialmedia a i{
+    font-size: 1em;
+    color: black;
+    opacity: 0.5;
+}
+
 @media screen and (max-width: 600px) {
   .nav a.icon {
     float: right;
