@@ -46,7 +46,7 @@ footer{
 
 .footerlinks{
     width: 100%;
-    padding: 30px 30px 10px ;
+    padding: 30px 30px 5px ;
 }
 
 .socialmedia{
@@ -102,12 +102,18 @@ footer{
     color: white;
 }
 
+@media (max-width: 768px) {
+  .sites ul{
+    flex-direction: column;
+  } 
+}
+
 @media screen and (min-width: 620px) {
   .nav a.icon {
     float: right;
     display: block;
   }
-    .sites ul{
+  .sites ul{
     flex-direction: column;
   } 
   .sites ul li{
