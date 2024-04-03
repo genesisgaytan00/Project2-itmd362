@@ -116,7 +116,7 @@ footer{
 /* Footer CSS End*/
 
 /* Parallax CSS Start*/
-.parallax1 {
+.parallax1, .parallax2, .parallax3{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -126,6 +126,16 @@ footer{
 
 .parallax1 {
   background-image: url("../images/hummings.JPG");
+  min-height: 800px;
+}
+
+.parallax2 {
+  background-image: url("../images/hosts.jpg");
+  min-height: 800px;
+}
+
+.parallax3 {
+  background-image: url("../images/signal.jpg");
   min-height: 800px;
 }
 
@@ -155,6 +165,11 @@ footer{
 }
 
 
+@media only screen and (max-device-width: 1024px) {
+  .parallax1, .parallax2, .parallax3 {
+    background-attachment: scroll;
+  }
+}
 
 @media (max-width: 768px) {
   .sites ul{
