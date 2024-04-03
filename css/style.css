@@ -11,13 +11,11 @@ body {
 
 .nav a {
   float: left;
-  display: block;
   color: #f2f2f2;
   padding: 12px 16px;
   text-decoration: none;
   font-size: 20px;
   height: 65px;
-  text-align: center;
 }
 
 .nav a:hover {
@@ -42,11 +40,6 @@ body {
 
 .logo img{
   width: 40px;
-}
-
-.logo {
-  background-color: #333;
-  color: white;
 }
 
 /* Nav Bar CSS End*/
@@ -184,6 +177,25 @@ footer{
   .sites ul{
     flex-direction: column;
   } 
+}
+
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+  .nav.responsive {position: relative;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
 
 
