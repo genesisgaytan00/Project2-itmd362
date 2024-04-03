@@ -174,13 +174,10 @@ footer{
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .sites ul{
     flex-direction: column;
   } 
-}
-
-@media screen and (max-width: 600px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
     float: right;
