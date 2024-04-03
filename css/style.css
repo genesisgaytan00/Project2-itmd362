@@ -116,7 +116,7 @@ footer{
 /* Footer CSS End*/
 
 /* Parallax CSS Start*/
-.parallax1 {
+.parallax1, .parallax2, .parallax3{
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -126,6 +126,16 @@ footer{
 
 .parallax1 {
   background-image: url("../images/hummings.JPG");
+  min-height: 800px;
+}
+
+.parallax2 {
+  background-image: url("../images/hosts.JPG");
+  min-height: 800px;
+}
+
+.parallax3 {
+  background-image: url("../images/signal.JPG");
   min-height: 800px;
 }
 
