@@ -169,15 +169,8 @@ footer{
 
 @media only screen and (max-device-width: 1024px) {
   .parallax1, .parallax2, .parallax3 {
-    background-attachment: fixed;
-    background-size: contain;
+    background-attachment: scroll;
   }
-}
-
-@media (max-width: 768px) {
-  .sites ul{
-    flex-direction: column;
-  } 
 }
 
 @media screen and (max-width: 600px) {
