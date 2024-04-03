@@ -29,6 +29,7 @@ body {
 
 .nav a.split {
   float: right;
+  display: block;
   background-color: #333;
   color: white;
 }
@@ -40,6 +41,7 @@ body {
 .logo img{
   width: 40px;
 }
+
 /* Nav Bar CSS End*/
 
 /* Footer CSS Start*/
@@ -177,11 +179,8 @@ footer{
   } 
 }
 
+
 @media screen and (min-width: 620px) {
-  .nav a.icon {
-    float: right;
-    display: block;
-  }
   .sites ul{
     flex-direction: column;
   } 
@@ -193,19 +192,5 @@ footer{
   .socialmedia a{
     padding: 8px;
     margin: 4px;
-  }
-}
-
-@media screen and (min-width: 990px) {
-  .nav.responsive {position: relative;}
-  .nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
   }
 }
