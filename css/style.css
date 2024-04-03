@@ -167,20 +167,17 @@ footer{
 }
 
 
-@media only screen and (max-device-width: 1024px) {
-  .parallax1, .parallax2, .parallax3 {
+@media only screen and (min-width:1025px) and (max-width:3840px){
+    .parallax1, .parallax2, .parallax3 {
     background-attachment: fixed;
-    background-size: contain;
+    background-position: top center;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .sites ul{
     flex-direction: column;
   } 
-}
-
-@media screen and (max-width: 600px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
     float: right;
