@@ -115,6 +115,22 @@ footer{
 }
 /* Footer CSS End*/
 
+/* Parallax CSS Start*/
+.parallax1 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("humming.jpg");
+  min-height: 600px;
+}
+
+
+
 @media (max-width: 768px) {
   .sites ul{
     flex-direction: column;
