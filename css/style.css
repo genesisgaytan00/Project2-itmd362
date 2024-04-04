@@ -4,6 +4,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.login-body {
+    background-image: url('../images/loginpic1.jpeg');
+}
+
+
 /* Nav Bar CSS Start*/
 .nav {
   overflow: hidden;
@@ -293,6 +298,14 @@ button:hover {
 }
 
 /* Login styling */
+
+form {
+  background-color: #f2e8cf95;
+    padding: 20px; 
+    border-radius: 10px;
+    max-width: 400px; 
+    margin: 0 auto; 
+}
 
 @media only screen and (max-device-width: 1024px) {
   .parallax1, .parallax2, .parallax3 {
