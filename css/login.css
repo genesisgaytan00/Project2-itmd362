@@ -1,0 +1,10 @@
+body{
+    background-image: url('../images/loginpic1.jpeg');
+}
+form {
+  background-color: #f2e8cf95;
+    padding: 20px; 
+    border-radius: 10px;
+    max-width: 400px; 
+    margin: 0 auto; 
+}
