@@ -313,6 +313,9 @@ form {
     max-width: 400px; 
     margin: 0 auto; 
 }
+input[type="submit"]:hover {
+  background-color: rgb(237, 192, 213);
+}
 
 @media only screen and (max-device-width: 1024px) {
   .parallax1, .parallax2, .parallax3 {
