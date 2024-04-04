@@ -166,6 +166,23 @@ footer{
   text-align: justify;
 }
 
+#school-info {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/* Address styling */
+.address {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+/* Main section styling */
+section {
+  padding: 20px;
+}
 
 @media only screen and (max-device-width: 1024px) {
   .parallax1, .parallax2, .parallax3 {
