@@ -11,6 +11,7 @@
   <script src="js/site.js" async></script>
 </head>
 <body>
+  <!-- Section 1: School Logo and Navigation Bar -->
   <div class="nav" id="nav">
     <a class="logo" href="#">
       <img src="images/logo.png" alt="Logo">
@@ -22,13 +23,35 @@
     <a href="exhibition.html" class="split">EXHIBITIONS</a>
     <a href="index.html" class="split">HOME</a>
   </div>
-  
-  <div>
-    <h1>adding</h1>
-    <h2>filler space</h2>
-  </div>
-  
+
+  <!-- Section 2: Yale School of Art Description -->
+  <section>
+    <h2>Yale School of Art</h2>
+    <p>The Yale School of Art is a graduate school that confers MFAs in Graphic Design, Painting/Printmaking, Photography, and Sculpture; and offers undergraduate-level art courses to Yale College students. Our website exists as an ongoing collaborative experiment in digital publishing and information sharing. It functions as a wiki—all members of the School of Art community have the ability to add new, and edit most existing content.</p>
+    <button onclick="scrollToSection('school-description')">Learn More</button>
+  </section>
+
+  <!-- Section 3: Description of the School and Website -->
+  <section id="school-description">
+    <h2>Description of the School and Website</h2>
+    <p>The Yale School of Art website is designed to provide information about the school, its programs, faculty, and events. It also serves as a platform for students and faculty to collaborate and share their work.</p>
+    <button onclick="window.location.href='login.html'">Login to Add On!</button>
+  </section>
+
+  <!-- Section 4: Exhibitions Description -->
+  <section>
+    <h2>Exhibitions</h2>
+    <p>Explore the latest exhibitions organized by the Yale School of Art.</p>
+    <button onclick="window.location.href='exhibition.html'">Learn More</button>
+  </section>
+
+  <!-- Section 5: Copyright, Address, Social Media, and Contact Information -->
   <footer>
+    <div class="address">
+      <p>Yale School of Art</p>
+      <p>1156 Chapel Street, POB 208339</p>
+      <p>New Haven, Connecticut, 06520-8339</p>
+    </div>
     <div class="footerlinks">
       <div class="socialmedia">
         <a href="https://www.facebook.com/YaleSchoolofArt/"><i class="fa-brands fa-facebook"></i></a>
