@@ -307,14 +307,22 @@ button:hover {
 /* Login styling */
 
 form {
-  background-color: #f2e8cf95;
-    padding: 20px; 
-    border-radius: 10px;
-    max-width: 400px; 
-    margin: 0 auto; 
+  background-color: #f2e8cff5;
+    padding: 30px; 
+    border-radius: 15px;
+    max-width: 500px; 
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+
 }
-input[type="submit"]:hover {
-  background-color: rgb(237, 192, 213);
+
+form button {
+  display: block;
+  margin: 0 auto;
+}
+form div {
+  margin-bottom: 15px; 
+  
 }
 
 @media only screen and (max-device-width: 1024px) {
