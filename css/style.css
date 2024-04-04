@@ -120,6 +120,7 @@ footer{
     text-align: center;
     color: white;
     position: relative;
+    margin-top: 20px;
 }
 /* Footer CSS End*/
 
@@ -182,9 +183,6 @@ footer{
 
 /* Address styling */
 .address {
-  position: absolute;
-  bottom: -20px;
-  width: 100%;
   text-align: center;
   padding: 20px;
   background-color: #f2f2f2;
