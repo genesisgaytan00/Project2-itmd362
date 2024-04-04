@@ -15,3 +15,12 @@ document.addEventListener("DOMContentLoaded", function() {
     iconElement.addEventListener("click", toggleResponsiveClass);
   }
 });
+
+function myFunction() {
+  var x = document.getElementById("nav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}

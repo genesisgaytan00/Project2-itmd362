@@ -254,6 +254,8 @@ button:hover {
   padding-bottom: 25px;
 }
 
+/* Login styling */
+
 @media only screen and (max-device-width: 1024px) {
   .parallax1, .parallax2, .parallax3 {
     background-attachment: scroll;
