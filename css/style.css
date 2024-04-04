@@ -59,7 +59,7 @@ footer{
 
 .footerlinks{
     width: 100%;
-    padding: 30px 30px 55px ;
+    padding: 30px 30px 20px ;
     position: relative;
 }
 
@@ -119,6 +119,7 @@ footer{
     padding: 20px;
     text-align: center;
     color: white;
+    position: relative;
 }
 /* Footer CSS End*/
 
@@ -182,7 +183,7 @@ footer{
 /* Address styling */
 .address {
   position: absolute;
-  bottom: -10px;
+  bottom: -20px;
   width: 100%;
   text-align: center;
   padding: 20px;
