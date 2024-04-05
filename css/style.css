@@ -256,35 +256,41 @@ section {
   text-align: center;
 }
 
-.exhibitionhome {
+.home {
   background-color: #FFF;
   display: flex;
   padding: 10px;
   align-items: center;
 }
 
-.exhome-img {
+.home-img {
   width: 45%;
   padding-left: 60px;
 }
 
-.exhome-img img {
+.home-img img {
   width: 100%;
 }
 
-.exhome-text {
+.home-text {
   width: 45%;
   color: #c4450a;
   padding: 10px;
   padding-left: 60px;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 30px;
 }
 
-.exhome-title {
+.home-title {
   text-align: center;
   padding-bottom: 30px;
+  font-size: 40px;
 }
+
+.home-p {
+  padding-bottom: 20px;
+}
+
 
 button {
   padding: 10px 20px;
