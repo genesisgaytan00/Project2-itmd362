@@ -442,6 +442,7 @@ form div {
   .parallax1, .parallax2, .parallax3, .parallax4 {
     background-size: 100vw auto;
     background-position: center center;      
+    background-attachment: fixed;
   }
   .exhibitionstitle {
     background-color: #F2E8CF;
