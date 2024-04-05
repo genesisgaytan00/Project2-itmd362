@@ -34,7 +34,7 @@
   
   <main>
     <!-- login form goes here -->
-    <form id="login-form" action="process-login.php" method="post">
+    <form id="login-form" method="get" autocomplete="on">
       <div>
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
@@ -43,7 +43,7 @@
         <label for="password">Password:</label>
         <input type="password" id="password" name="password" required>
       </div>
-      <button type="submit">Login</button>
+      <button type="submit" onclick="output()">Login</button>
       <h3>Need Help Logining In?</h3>
       <button onclick="window.location.href='https://www.art.yale.edu/about/contact'">Contact Us</button>
     </form>
