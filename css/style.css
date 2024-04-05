@@ -347,7 +347,7 @@ button:hover {
 
 /* Login styling */
 
-form {
+.loginform {
   background-color: #f2e8cff5;
   padding: 30px; 
   border-radius: 15px;
@@ -358,12 +358,12 @@ form {
   margin-top: 100px;
 }
 
-form button {
+.loginform button {
   display: block;
   margin: 35px;
 }
 
-form div {
+.loginform div {
   margin-bottom: 35px; 
 }
 
@@ -464,10 +464,7 @@ form div {
     padding: 8px;
     margin: 4px;
   }
-}
-
-@media screen and (min-width: 940px) {
-  .login-body {
+    .login-body {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -479,4 +476,13 @@ form div {
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+
+@media screen and (min-width: 940px) {
+  body {
+  margin: 0;
+  height: 100%;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  } 
 }
