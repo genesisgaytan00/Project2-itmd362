@@ -434,14 +434,24 @@ form div {
     line-height: 30px;
   }
   #section2 p {
-  background-color: #e3dfd3;
+    background-color: #e3dfd3;
   }
   #section2 h2 {
-  background-color: #e3dfd3;
+    background-color: #e3dfd3;
   }
   .parallax1, .parallax2, .parallax3, .parallax4 {
-  width: 100%;
-  height: auto;
+    background-size: 100vw auto;
+    background-position: center;
+  }
+  .exhibitionstitle {
+    background-color: #F2E8CF;
+    text-align: center;
+    padding: 0;
+    letter-spacing: 0;
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #111;
   }
 }
 
@@ -459,5 +469,12 @@ form div {
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
+  }
+  .parallax1, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
