@@ -331,11 +331,11 @@ form {
 
 form button {
   display: block;
-  margin: 0 auto;
+  margin: 35px;
 }
 
 form div {
-  margin-bottom: 15px; 
+  margin-bottom: 35px; 
 }
 
 #login-header {
