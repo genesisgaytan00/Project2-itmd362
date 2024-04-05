@@ -331,11 +331,11 @@ form {
 
 form button {
   display: block;
-  margin: 0 auto;
+  margin: 35px;
 }
 
 form div {
-  margin-bottom: 15px; 
+  margin-bottom: 35px; 
 }
 
 #login-header {
@@ -348,6 +348,12 @@ form div {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #111;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1024px) {
