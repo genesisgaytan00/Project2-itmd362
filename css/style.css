@@ -363,8 +363,8 @@ form div {
 }
 
 @media only screen and (max-width: 1024px) {
-  .parallax1, .parallax2, .parallax3 {
-    background-attachment: scroll;
+  .parallax1, .parallax2, .parallax3, .parallax4 {
+    background-attachment: fixed;
   }
 }
 
@@ -385,21 +385,21 @@ form div {
     display: block;
     text-align: left;
   }
-  .exhibitionhome {
+  .home {
     background-color: #FFF;
     display: grid;
     padding: 10px;
   }
-  .exhome-img {
+  .home-img {
     width: 100%;
     padding-left: 0;
   }
 
-  .exhome-img img {
+  .home-img img {
     width: 100%;
   }
 
-  .exhome-text {
+  .home-text {
     width: 100%;
     padding: 0;
     font-size: 16px;
