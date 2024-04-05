@@ -7,12 +7,13 @@ body {
 }
 
 .login-body {
-  background-image: url('../images/loginpic1.jpeg');
+  background-image: url('../images/login.jpg');
   min-height: 1200px;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  filter: grayscale(0.20);  
 }
 
 
@@ -355,6 +356,7 @@ form {
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   text-align: center;
+  margin-top: 100px;
 }
 
 form button {
@@ -446,4 +448,9 @@ form div {
     padding: 8px;
     margin: 4px;
   }
+  .login-body {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 }
