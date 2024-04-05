@@ -247,10 +247,8 @@ section {
 }
 
 #section2 .learnmore:hover {
-  background-color: #555;
-    padding: 50px;
-    background-color: #f9f9f9;
-    text-align: center;
+  background-color: #f9f9f9;
+  text-align: center;
 }
 
 .exhibitionhome {
