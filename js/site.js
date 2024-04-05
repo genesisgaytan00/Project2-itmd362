@@ -24,3 +24,9 @@ function myFunction() {
     x.className = "nav";
   }
 }
+
+function output() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value;
+  alert("Thanks for signing in " + username);
+}
