@@ -5,7 +5,7 @@ body {
 }
 
 .login-body {
-    background-image: url('../images/loginpic1.jpeg');
+  background-image: url('../images/loginpic1.jpeg');
 }
 
 
@@ -104,7 +104,7 @@ footer{
 
 .sites{
     margin: 30px 0;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .sites ul{
@@ -136,7 +136,7 @@ footer{
 /* Footer CSS End*/
 
 /* Parallax CSS Start*/
-.parallax1, .parallax2, .parallax3{
+.parallax1, .parallax2, .parallax3, .parallax4 {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -159,6 +159,11 @@ footer{
   min-height: 800px;
 }
 
+.parallax4 {
+  background-image: url("../images/screened.jpeg");
+  min-height: 800px;
+}
+
 .exhibitionstitle {
   background-color: #F2E8CF;
   text-align:center;
@@ -166,7 +171,7 @@ footer{
   text-align:center;
   letter-spacing: 10px;
   text-transform: uppercase;
-  font: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   color: #111;
 }
@@ -247,14 +252,12 @@ section {
 }
 
 #section2 .learnmore:hover {
-  background-color: #555;
-    padding: 50px;
-    background-color: #f9f9f9;
-    text-align: center;
+  background-color: #f9f9f9;
+  text-align: center;
 }
 
 .exhibitionhome {
-  background-color: white;
+  background-color: #FFF;
   display: flex;
   padding: 10px;
   align-items: center;
@@ -318,12 +321,11 @@ button:hover {
 
 form {
   background-color: #f2e8cff5;
-    padding: 30px; 
-    border-radius: 15px;
-    max-width: 500px; 
-    margin: 0 auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-
+  padding: 30px; 
+  border-radius: 15px;
+  max-width: 500px; 
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 form button {
@@ -341,12 +343,12 @@ form div {
   text-align:center;
   letter-spacing: 7px;
   text-transform: uppercase;
-  font: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #111;
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .parallax1, .parallax2, .parallax3 {
     background-attachment: scroll;
   }
@@ -370,10 +372,9 @@ form div {
     text-align: left;
   }
   .exhibitionhome {
-    background-color: "white";
+    background-color: #FFF;
     display: grid;
     padding: 10px;
-    align-items: ltr;
   }
   .exhome-img {
     width: 100%;
