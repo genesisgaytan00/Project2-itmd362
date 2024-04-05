@@ -350,6 +350,12 @@ form div {
   color: #111;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 @media only screen and (max-width: 1024px) {
   .parallax1, .parallax2, .parallax3 {
     background-attachment: scroll;
