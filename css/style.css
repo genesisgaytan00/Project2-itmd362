@@ -441,7 +441,7 @@ form div {
   }
   .parallax1, .parallax2, .parallax3, .parallax4 {
     background-size: 100vw auto;
-    background-position: center;
+    background-position: center center;      
   }
   .exhibitionstitle {
     background-color: #F2E8CF;
@@ -466,9 +466,9 @@ form div {
     margin: 4px;
   }
   .login-body {
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   .parallax1, .parallax2, .parallax3, .parallax4 {
     position: relative;
