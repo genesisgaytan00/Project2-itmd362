@@ -1,37 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Homepage</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" media="screen" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js" async></script>
 </head>
 <body>
-  <!-- Section 1: School Logo and Navigation Bar -->
-  <div class="nav" id="nav">
-    <a class="logo" href="#">
-      <img src="images/logo.png" alt="Logo">
-    </a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="login.html" class="split">LOGIN</a>
-    <a href="exhibition.html" class="split">EXHIBITIONS</a>
-    <a href="index.html" class="split">HOME</a>
-  </div>
+  <!-- Header: School Logo and Navigation Bar -->
+  <header>
+    <div class="nav" id="nav">
+      <a class="logo" href="#">
+        <img src="images/logo.png" alt="Logo">
+      </a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="login.html" class="split">LOGIN</a>
+      <a href="exhibition.html" class="split">EXHIBITIONS</a>
+      <a href="index.html" class="split">HOME</a>
+    </div>
+  </header>
 
-  <!-- Section 2: Yale School of Art Description -->
+  <!-- Section 1: Yale School of Art Description -->
   <section id="section2">
     <h2>Yale School of Art</h2>
     <p>Providing students with intellectually informed, hands-on instruction in the practice of an array of visual arts media within the context of a liberal arts university. </p>
     <button class="learnmore" onclick="window.location.href='#school-description'">Learn more!</button>
   </section>
 
-  <!-- Section 3: Description of the School and Website -->
+  <!-- Section 2: Description of the School and Website -->
   <section class="about-yale" id="school-description">
       <h2 class="about-title">ABOUT THE SCHOOL</h2>
       <p class="about-text">The Yale School of Art is a graduate school that confers MFAs in Graphic Design, Painting/Printmaking, Photography, and Sculpture; and offers undergraduate-level art courses to Yale College students. Our website exists as an ongoing collaborative experiment in digital publishing and information sharing. It functions as a wiki—all members of the School of Art community have the ability to add new, and edit most existing content.</p>
@@ -39,10 +41,10 @@
       <button onclick="window.location.href='login.html'">Login to Add On!</button>
   </section>
 
-  <!-- Section 4: Exhibitions Description -->
+  <!-- Section 3: Exhibitions Description -->
   <section>
     <div class="exhibitionhome">
-      <div class="exhome-img"><img src="images/arts.jpg"></div>
+      <div class="exhome-img"><img src="images/arts.jpg" alt="Yale Artwork"></div>
       <div class="exhome-text">
         <h1 class="exhome-title">EXHIBITIONS</h1>
         <p>The School of Art galleries in Green Hall provide a year-round forum for the exhibition of work by students, faculty, and special guests in the four graduate departments of the School and the undergraduate program. During exhibitions, Green Hall Gallery at 1156 Chapel Street is typically open to the public but due to COVID-19, it will remain open only to the Yale community until further notice.</p>
@@ -51,7 +53,7 @@
     </div>
   </section>
 
-  <!-- Section 5: Copyright, Address, Social Media, and Contact Information -->
+  <!-- Footer: Copyright, Address, Social Media, and Contact Information -->
   <footer>
     <div class="footerlinks">
       <div class="socialmedia">

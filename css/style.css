@@ -166,7 +166,7 @@ footer{
   text-align:center;
   letter-spacing: 10px;
   text-transform: uppercase;
-  font: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   color: #111;
 }
@@ -251,7 +251,7 @@ section {
 }
 
 .exhibitionhome {
-  background-color: white;
+  background-color: #FFF;
   display: flex;
   padding: 10px;
   align-items: center;
@@ -338,12 +338,12 @@ form div {
   text-align:center;
   letter-spacing: 7px;
   text-transform: uppercase;
-  font: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #111;
 }
 
-@media only screen and (max-device-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .parallax1, .parallax2, .parallax3 {
     background-attachment: scroll;
   }
@@ -367,10 +367,9 @@ form div {
     text-align: left;
   }
   .exhibitionhome {
-    background-color: "white";
+    background-color: #FFF;
     display: grid;
     padding: 10px;
-    align-items: ltr;
   }
   .exhome-img {
     width: 100%;
