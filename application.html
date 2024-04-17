@@ -28,23 +28,42 @@
   
   <div id ="login-header">
     <h1>Yale School of Art</h1>
-    <h2>Student Login</h2>
+    <h2>Fall 2024 Application</h2>
   </div>
   
   <main>
     <!-- login form goes here -->
-    <form class="loginform" id="login-form" action="#null" method="get" autocomplete="on">
+    <form class="applicationform" id="login-form" action="#null" method="get" autocomplete="on">
       <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
       </div>
       <div>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <label for="mname">Middle Name:</label>
+        <input type="text" id="mname" name="mname">
+      </div>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+      </div>
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+      </div>
+      <div>
+        <label for"gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label>
+      </div>
+      <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
       </div>
       <button type="submit" onclick="output()">Login</button>
-      <h3>Need Help Logining In?</h3>
-      <button onclick="window.location.href='https://www.art.yale.edu/about/contact'">Contact Us</button>
     </form>
   </main>
   
