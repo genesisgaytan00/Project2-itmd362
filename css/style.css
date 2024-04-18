@@ -59,9 +59,9 @@ body {
 
 /* Footer CSS Start*/
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .footer {
@@ -71,97 +71,87 @@ body {
 }
 
 footer{
-    background-color: #333;
-    position: relative;
+  background-color: #333;
+  position: relative;
 }
 
 .footerlinks{
-    width: 100%;
-    padding: 30px 30px 20px ;
-    position: relative;
+  width: 100%;
+  padding: 30px 30px 20px ;
+  position: relative;
 }
 
 .socialmedia{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .socialmedia a{
-    text-decoration: none;
-    padding:  10px;
-    background-color: white;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.socialmedia a i{
-    font-size: 2em;
-    color: #333;
-    opacity: 0.8;
+  text-decoration: none;
+  padding:  10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
 }
 
 .socialmedia a:hover{
-    background-color: #333;
-}
-
-.socialmedia a:hover i{
-    color: white;
+  background-color: #333;
 }
 
 .sites{
-    margin: 30px 0;
-    margin-bottom: 10px;
+  margin: 30px 0;
+  margin-bottom: 10px;
 }
 
 .sites ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
 .sites ul li a{
-    color:white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
 }
 
 .sites1 ul li a:hover{
-    opacity: 1;
+  opacity: 1;
 }
 
 .sites1 {
-    margin: 30px 0;
-    margin-bottom: 10px;
+  margin: 30px 0;
+  margin-bottom: 10px;
 }
 
 .sites1 ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
 .sites1 ul li a{
-    color:white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
 }
 
 .sites ul li a:hover{
-    opacity: 1;
+  opacity: 1;
 }
 
 .copyright{
-    background-color: #000;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    position: relative;
-    margin-top: 20px;
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 20px;
 }
 /* Footer CSS End*/
 
