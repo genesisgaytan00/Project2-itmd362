@@ -1,13 +1,13 @@
 body {
   margin: 0;
   height: 100%;
-  font-family: "Merriweather", serif;
+  font-family: "Courier New", "Courier", monospace;
   font-weight: 400;
 }
 
 .login-body {
   background-image: url('../images/login.JPG');
-  min-height: 1200px;
+  min-height: 1250px;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -59,9 +59,9 @@ body {
 
 /* Footer CSS Start*/
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .footer {
@@ -71,97 +71,87 @@ body {
 }
 
 footer{
-    background-color: #333;
-    position: relative;
+  background-color: #333;
+  position: relative;
 }
 
 .footerlinks{
-    width: 100%;
-    padding: 30px 30px 20px ;
-    position: relative;
+  width: 100%;
+  padding: 30px 30px 20px ;
+  position: relative;
 }
 
 .socialmedia{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .socialmedia a{
-    text-decoration: none;
-    padding:  10px;
-    background-color: white;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.socialmedia a i{
-    font-size: 2em;
-    color: #333;
-    opacity: 0.8;
+  text-decoration: none;
+  padding:  10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
 }
 
 .socialmedia a:hover{
-    background-color: #333;
-}
-
-.socialmedia a:hover i{
-    color: white;
+  background-color: #333;
 }
 
 .sites{
-    margin: 30px 0;
-    margin-bottom: 10px;
+  margin: 30px 0;
+  margin-bottom: 10px;
 }
 
 .sites ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
 .sites ul li a{
-    color:white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
 }
 
 .sites1 ul li a:hover{
-    opacity: 1;
+  opacity: 1;
 }
 
 .sites1 {
-    margin: 30px 0;
-    margin-bottom: 10px;
+  margin: 30px 0;
+  margin-bottom: 10px;
 }
 
 .sites1 ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
 .sites1 ul li a{
-    color:white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
 }
 
 .sites ul li a:hover{
-    opacity: 1;
+  opacity: 1;
 }
 
 .copyright{
-    background-color: #000;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    position: relative;
-    margin-top: 20px;
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 20px;
 }
 /* Footer CSS End*/
 
@@ -283,7 +273,6 @@ section {
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 18px;
-  font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -329,6 +318,7 @@ section {
 
 .home-p {
   padding-bottom: 20px;
+  font-size: 18px;
 }
 
 
@@ -340,7 +330,6 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 16px;
-  font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -367,6 +356,7 @@ button:hover {
 
 .about-text {
   padding-bottom: 25px;
+  font-size: 20px;
 }
 
 /* Login styling */
@@ -410,19 +400,40 @@ button:hover {
   font-size: 30px;
 }
 
+.applicationform {
+  background-color: #f2e8cff5;
+  padding: 30px; 
+  border-radius: 15px;
+  max-width: 500px; 
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  text-align: lefts;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.applicationform button {
+  display: block;
+  margin: 35px;
+}
+
+.applicationform div {
+  margin-bottom: 35px; 
+}
+
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .parallax1, .parallax2, .parallax3, .parallax4 {
     background-attachment: scroll;
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .nav a:not(:first-child) {display: none;}
   .nav a.icon {
     float: right;

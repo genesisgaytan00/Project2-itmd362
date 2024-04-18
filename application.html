@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Login</title>
+  <title>Application</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" media="screen" href="css/style.css">
@@ -21,30 +21,57 @@
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="login.html" class="split">LOGIN</a>
+    <a href="application.html" class="split">APPLICATION</a>
     <a href="exhibition.html" class="split">EXHIBITIONS</a>
     <a href="index.html" class="split">HOME</a>
   </div>
   
   <div id ="login-header">
     <h1>Yale School of Art</h1>
-    <h2>Student Login</h2>
+    <h2>Fall 2024 Application</h2>
   </div>
   
   <main>
     <!-- login form goes here -->
-    <form class="loginform" id="login-form" action="#null" method="get" autocomplete="on">
+    <form class="applicationform" id="login-form" action="#null" method="get" autocomplete="on">
       <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
       </div>
       <div>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <label for="mname">Middle Name:</label>
+        <input type="text" id="mname" name="mname">
       </div>
-      <button type="submit" onclick="output()">Login</button>
-      <h3>Need Help Logining In?</h3>
-      <button onclick="window.location.href='https://www.art.yale.edu/about/contact'">Contact Us</button>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+      </div>
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+      <div>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other">Other</label>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123-456-789" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+      </div>  
+      <div>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+      </div>
+      <button type="submit" onclick="output()">Apply Now!</button>
     </form>
   </main>
   
