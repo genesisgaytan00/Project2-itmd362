@@ -1,13 +1,13 @@
 body {
   margin: 0;
   height: 100%;
-  font-family: "Merriweather", serif;
+  font-family: "Courier New", "Courier", monospace;
   font-weight: 400;
 }
 
 .login-body {
   background-image: url('../images/login.JPG');
-  min-height: 1400px;
+  min-height: 1250px;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,7 +273,6 @@ section {
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 18px;
-  font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -319,6 +318,7 @@ section {
 
 .home-p {
   padding-bottom: 20px;
+  font-size: 18px;
 }
 
 
@@ -330,7 +330,6 @@ button {
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 16px;
-  font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -357,6 +356,7 @@ button:hover {
 
 .about-text {
   padding-bottom: 25px;
+  font-size: 20px;
 }
 
 /* Login styling */
