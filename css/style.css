@@ -214,6 +214,7 @@ footer{
 .exhibitionnames {
   padding-bottom:10px;
   font: 40px;
+  font-weight: bold;
 }
 
 .exhibitiondescriptions {
@@ -384,13 +385,17 @@ button:hover {
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   text-align: center;
-  margin-top: 100px;
+  margin-top: 180px;
+  margin-bottom: 180px;
   font-size: 20px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .loginform button {
   display: block;
   margin: 35px;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .loginform div {
@@ -412,7 +417,7 @@ button:hover {
   font-family: "Yatra One", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .applicationform {
@@ -429,13 +434,16 @@ button:hover {
   margin-bottom: 50px;
   flex-direction: column;
   align-items: stretch;
+  font-family: "Montserrat", sans-serif;
 }
 
 .applicationform button {
   display: block;
-  margin: 35px;
-  font-family: "Futura", "Arial", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
+  width: 100%;
+  float: center;
+  letter-spacing: 2px;
+  font-weight: 700;
 }
 
 .applicationform div {
@@ -468,11 +476,15 @@ button:hover {
   color: #fff;
 }
 
-#application-header h1, h2{
+#application-header h1{
   font-family: "Yatra One", system-ui;
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
+}
+
+#application-header h2{
+  font-size: 20px;
 }
 
 .footer {
