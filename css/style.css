@@ -344,9 +344,11 @@ button {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  font-size: 20px;
+  float: center;
+  letter-spacing: 2px;
 }
 
 button:hover {
