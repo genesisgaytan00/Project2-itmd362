@@ -280,6 +280,10 @@ section {
   margin-bottom: 30px;
   padding: 10px 10px;
   background-color: #e3dfd3;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 #section2 .learnmore {
@@ -335,6 +339,10 @@ section {
 .home-p {
   padding-bottom: 20px;
   font-size: 18px;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 
@@ -376,6 +384,10 @@ button:hover {
   padding-bottom: 25px;
   font-size: 20px;
   line-height: 30px;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 /* Login styling */
