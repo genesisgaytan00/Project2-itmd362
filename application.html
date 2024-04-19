@@ -13,7 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js" async></script>
 </head>
-<body class="login-body">
+<body class="app-body">
   <div class="nav" id="nav">
     <a class="logo" href="index.html">
       <img src="images/logo.png" alt="Logo">
@@ -23,14 +23,18 @@
     <a href="index.html" class="split">HOME</a>
   </div>
   
-  <div id ="login-header">
+  <div id ="application-header">
     <h1>Yale School of Art</h1>
     <h2>Fall 2024 Application</h2>
   </div>
   
   <main>
     <!-- login form goes here -->
-    <form class="applicationform" id="application-form" action="#null" method="get" autocomplete="on">
+    <form name="appform" class="applicationform" id="application-form" onsubmit="return validateForm()" action="#null" method="get" autocomplete="on">
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
       <div>
         <label for="fname">First Name:</label>
         <input type="text" id="fname" name="fname" required>
@@ -48,17 +52,14 @@
         <input type="date" id="dob" name="dob" required>
       </div>
       <div>
-        <label for="gender">Gender:</label>
-        <input type="radio" name="gender" id="male" value="male">
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="female" value="female">
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="other" value="other">
-        <label for="other">Other</label>
-      </div>
-      <div>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+        <label for="gender">Gender: </label>
+        <select id="gender" name="gender">
+          <option value="select">-- Select --</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="nonbinary">Non-binary</option>
+          <option value="other">Other</option>
+        </select>
       </div>
       <div>
         <label for="phone">Phone Number:</label>
@@ -73,13 +74,13 @@
   </main>
   
   <!-- Footer: Copyright, Address, Social Media, and Contact Information -->
-  <footer class="footer">
+  <footer>
     <div class="footerlinks">
       <div class="sites1">
         <ul>
-          <li><a href="https://www.facebook.com/YaleSchoolofArt/">Facebook</a></li>
-          <li><a href="https://www.instagram.com/yaleschoolofart/">Instagram</a></li>
-          <li><a href="https://www.youtube.com/channel/UCDwJT0mYodTSodcpH-hGmdA">Youtube</a></li>
+          <li><a class="socials" href="https://www.facebook.com/YaleSchoolofArt/"><img src="images/fb.png" alt="facebook"></a></li>
+          <li><a class="socials" href="https://www.instagram.com/yaleschoolofart/"><img src="images/insta.png" alt="instagram"></a></li>
+          <li><a class="socials" href="https://www.youtube.com/channel/UCDwJT0mYodTSodcpH-hGmdA"><img src="images/yt.png" alt="youtube"></a></li>
         </ul>
       </div>
       <div class="sites">

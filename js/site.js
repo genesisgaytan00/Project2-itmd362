@@ -5,11 +5,11 @@ function output() {
   alert("Thanks for signing in " + username);
 }
 
-
-document.getElementById("application-form").addEventListener("submit", myFunction);
-function myFunction() {
+function validateForm() {
   var fname = document.getElementById("fname").value;
   var lname = document.getElementById("lname").value;
   var mname = document.getElementById("mname").value;
-  alert("Congrats on the beginning for your future " + fname + " " + mname + " " + lname + "!");
+  
+  alert("Congratulations on taking the first step toward your artistic journey  " + fname + " " + mname + " " + lname + "!");
+  return false; // Prevents the form from being submitted (just for testing purposes)
 }
