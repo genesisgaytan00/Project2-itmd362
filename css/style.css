@@ -215,7 +215,10 @@ footer{
 .exhibitionnames {
   padding-bottom:10px;
   font: 40px;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
   font-weight: bold;
+  font-style: normal;
 }
 
 .exhibitiondescriptions {
@@ -225,6 +228,14 @@ footer{
   padding:80px 80px;
   text-align: justify;
   font-size: 20px;
+  line-height:30px;
+}
+
+.exp {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 #school-info {
@@ -294,8 +305,11 @@ section {
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
+  font-style: normal;  
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
   font-style: normal;
 }
 
@@ -346,18 +360,20 @@ section {
 }
 
 
-button {
+.button {
   padding: 10px 20px;
+  margin-left: 10px;
   background-color: #f79d00;
   color: #333;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  font-family: "Montserrat", sans-serif;
-  display: block;
   font-size: 20px;
-  float: center;
-  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;  
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 button:hover {
@@ -406,7 +422,10 @@ button:hover {
   margin-bottom: 150px;
   flex-direction: column;
   align-items: stretch;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .loginform button {
@@ -416,6 +435,9 @@ button:hover {
   float: center;
   letter-spacing: 2px;
   font-weight: 700;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .loginform label {
@@ -472,7 +494,10 @@ button:hover {
   margin-bottom: 70px;
   flex-direction: column;
   align-items: stretch;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .applicationform button {
@@ -482,6 +507,9 @@ button:hover {
   float: center;
   letter-spacing: 2px;
   font-weight: 700;
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .applicationform div {
