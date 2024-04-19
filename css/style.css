@@ -432,7 +432,6 @@ button:hover {
   display: block;
   font-size: 20px;
   width: 100%;
-  float: center;
   letter-spacing: 2px;
   font-weight: 700;
   font-family: "Platypi", serif;
@@ -504,7 +503,6 @@ button:hover {
   display: block;
   font-size: 20px;
   width: 100%;
-  float: center;
   letter-spacing: 2px;
   font-weight: 700;
   font-family: "Platypi", serif;
