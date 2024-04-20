@@ -428,6 +428,11 @@ button:hover {
   font-weight: 700;
   font-family: "Platypi", serif;
   font-style: normal;
+  background-color: #FFE45C;
+}
+
+.loginform button:hover {
+  background-color: #f79d00;
 }
 
 .loginform label {
@@ -497,6 +502,11 @@ button:hover {
   font-weight: 700;
   font-family: "Platypi", serif;
   font-style: normal;
+  background-color: #FFE45C;
+}
+
+.applicationform button:hover {
+  background-color: #f79d00;
 }
 
 .applicationform div {

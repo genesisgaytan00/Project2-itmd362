@@ -1,8 +1,9 @@
-document.getElementById("login-form").addEventListener("submit", myFunction);
-function output() {
+function validateForm2() {
   var username = document.getElementById("username").value;
-  var password = document.getElementById("password").value;
-  alert("Thanks for signing in " + username);
+  var passwd = document.getElementById("password").value;
+  
+  alert("Thanks for signing in " + username + "!");
+  return false; 
 }
 
 function validateForm() {
@@ -13,3 +14,4 @@ function validateForm() {
   alert("Congratulations on taking the first step toward your artistic journey  " + fname + " " + mname + " " + lname + "!");
   return false; // Prevents the form from being submitted (just for testing purposes)
 }
+
