@@ -173,31 +173,27 @@ footer{
 
 /* Parallax CSS Start*/
 .parallax1, .parallax2, .parallax3, .parallax4 {
-  background-size: 100vw auto;
-  background-position: center center;  
-  background-attachment: fixed;  
-  background-repeat: no-repeat;  
-  background-size: contain;
+    height: 500px; /* Adjust as needed for desktop */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .parallax1 {
   background-image: url("../images/hummings.JPG");
-  min-height: 800px;
 }
 
 .parallax2 {
   background-image: url("../images/hosts.jpg");
-  min-height: 800px;
 }
 
 .parallax3 {
   background-image: url("../images/signal.jpg");
-  min-height: 800px;
 }
 
 .parallax4 {
   background-image: url("../images/screened.jpeg");
-  min-height: 800px;
 }
 
 .exhibitionstitle {
@@ -561,13 +557,6 @@ button:hover {
     padding-bottom: 25px;
     font-size: 20px;
   }
-  .parallax1, .parallax2, .parallax3, .parallax4 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
 }
 
 @media screen and (min-width: 620px) {
@@ -624,6 +613,13 @@ button:hover {
   }
   #section2 h2 {
     background-color: transparent;
+  }
+  .parallax1, .parallax2, .parallax3, .parallax4 {
+    height: 100vh; /* Adjust as needed for desktop */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
