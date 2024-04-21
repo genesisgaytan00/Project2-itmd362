@@ -38,7 +38,7 @@ body {
   color: #f2f2f2;
   padding: 10px 12px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 17px;
   height: 65px; 
 }
 
@@ -54,7 +54,7 @@ body {
 
 .nav a.split {
   float: right;
-  padding-top: 20px;
+  padding-top: 25px;
   padding-bottom:20px;
   display: block;
   background-color: #333;
@@ -588,7 +588,7 @@ button:hover {
     color: #f2f2f2;
     padding: 12px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     height: 65px;
   }
   .nav a:hover {
@@ -646,9 +646,6 @@ button:hover {
     font-family: "Merriweather", serif;
     font-weight: 400;
   } 
-  .nav a {
-    font-size: 25px;
-  }
   .exhibitionstitle {
     background-color: #F2E8CF;
     text-align: center;
