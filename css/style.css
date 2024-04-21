@@ -81,10 +81,8 @@ body {
 }
 
 .school-logo img{
-  width: 45px;
-  height: 45px;
-  margin-top: .4rem;
-  margin-left: .6rem;
+  width: 40px;
+  margin: .5rem;
 }
 
 .navbar-links ul{
@@ -111,7 +109,7 @@ body {
 
 .menu{
   position: absolute;
-  top: 1.5rem;
+  top: 1.4rem;
   right: 1rem;
   display: none;
   flex-direction: column;
