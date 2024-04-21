@@ -175,29 +175,29 @@ footer{
 .parallax1, .parallax2, .parallax3, .parallax4 {
   background-size: 100vw auto;
   background-position: center center;  
-  background-attachment: fixed;  
+  background-attachment: scroll;  
   background-repeat: no-repeat;  
-  background-size: contain;
+  background-size: cover;
 }
 
 .parallax1 {
   background-image: url("../images/hummings.JPG");
-  min-height: 800px;
+  min-height: 250px;
 }
 
 .parallax2 {
   background-image: url("../images/hosts.jpg");
-  min-height: 800px;
+  min-height: 250px;
 }
 
 .parallax3 {
   background-image: url("../images/signal.jpg");
-  min-height: 800px;
+  min-height: 250px;
 }
 
 .parallax4 {
   background-image: url("../images/screened.jpeg");
-  min-height: 800px;
+  min-height: 250px;
 }
 
 .exhibitionstitle {
@@ -224,8 +224,8 @@ footer{
   color: #777;
   background-color: #F2E8CF;
   text-align:center;
-  padding:80px 80px;
-  text-align: justify;
+  padding:50px 30px;
+  text-align: left;
   font-size: 20px;
   line-height:30px;
 }
@@ -557,19 +557,9 @@ button:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-  .parallax1, .parallax2, .parallax3, .parallax4 {
-    background-attachment: scroll;
-  }
   .about-text {
     padding-bottom: 25px;
     font-size: 20px;
-  }
-  .parallax1, .parallax2, .parallax3, .parallax4 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 
@@ -585,13 +575,6 @@ button:hover {
   }
   .login-body {
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .parallax1, .parallax2, .parallax3, .parallax4 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -628,6 +611,32 @@ button:hover {
   #section2 h2 {
     background-color: transparent;
   }
+  .parallax1, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    background-position: center;  
+    background-attachment: fixed;  
+    background-repeat: no-repeat;  
+    background-size: cover;
+  }
+  .parallax1 {
+    background-image: url("../images/hummings.JPG");
+    min-height: 800px;
+  }
+
+  .parallax2 {
+    background-image: url("../images/hosts.jpg");
+    min-height: 800px;
+  }
+
+  .parallax3 {
+    background-image: url("../images/signal.jpg");
+    min-height: 800px;
+  }
+
+  .parallax4 {
+    background-image: url("../images/screened.jpeg");
+    min-height: 800px;
+  }
 }
 
 @media screen and (min-width: 940px) {
@@ -651,6 +660,15 @@ button:hover {
     font-weight: 400;
     font-style: normal;
     color: #111;
+  }
+  .exhibitiondescriptions {
+    color: #777;
+    background-color: #F2E8CF;
+    text-align:center;
+    padding:80px 80px;
+    text-align: justify;
+    font-size: 20px;
+    line-height:30px;
   }
   .home {
     background-color: #FFF;
