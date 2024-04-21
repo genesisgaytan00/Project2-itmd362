@@ -429,12 +429,13 @@ section {
 .home {
   background-color: #FFF;
   display: grid;
+  flex-direction: row;
   padding: 10px;
 }
 
 .home-img {
   width: 100%;
-  padding-left: 0;
+  order: -1;
 }
 
 .home-img img {
@@ -451,7 +452,8 @@ section {
 
 .home-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 40px;
   font-family: "Yatra One", system-ui;
   font-weight: 400;
@@ -702,6 +704,9 @@ button:hover {
   .about-text {
     padding-bottom: 25px;
     font-size: 20px;
+  }
+  .home-img{
+    order: 0;
   }
   .parallax1, .parallax2, .parallax3, .parallax4 {
     position: relative;
