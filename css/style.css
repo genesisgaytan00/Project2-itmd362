@@ -81,8 +81,10 @@ body {
 }
 
 .school-logo img{
-  width: 50px;
-  margin: .5rem;
+  width: 45px;
+  height: 45px;
+  margin-top: .4rem;
+  margin-left: .6rem;
 }
 
 .navbar-links ul{
@@ -123,6 +125,19 @@ body {
   width: 100%;
   background-color: white;
   border-radius: 10px;
+}
+
+.navbuttons {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.active, .navbuttons:hover {
+  background-color: #555;
+  color: white;
 }
 
 /* Nav Bar CSS End*/
