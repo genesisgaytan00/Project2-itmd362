@@ -519,8 +519,8 @@ button:hover {
 }
 
 .about-yale {
-  padding: 90px 30px;
-  padding-left: 50px;
+  padding: 30px 20px;
+  padding-left: 20px;
   font-size: 18px;
   background-color: #e3dfd3;
 }
@@ -798,6 +798,12 @@ button:hover {
   }
   #section2 h2 {
     background-color: transparent;
+  }
+  .about-yale {
+    padding: 90px 30px;
+    padding-left: 50px;
+    font-size: 18px;
+    background-color: #e3dfd3;
   }
 }
 
