@@ -70,7 +70,6 @@ body {
 
 .navbar{
   display: flex;
-  overflow: hidden;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
