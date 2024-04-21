@@ -67,74 +67,123 @@ body {
   width: 40px;
 }
 */
+.school-logo img {
+  width: 40px;
+  margin: .5rem;
+}
 
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
   color: white;
-  min-width: 320px;
+  min-width: 320px; 
   font-family: "Yatra One", system-ui;
-  font-size: 20px;
 }
 
-.school-logo img{
-  width: 40px;
-  margin: .5rem;
-}
-
-.navbar-links ul{
+.navbar-links ul {
   margin: 0;
   padding: 0;
   display: flex;
 }
 
-.navbar-links li{
+.navbar-links li {
   list-style: none;
 }
 
-.navbar-links li a{
+.navbar-links li a {
   text-decoration: none;
   color: white;
-  padding: 1.5rem;
+  padding: 1rem;
   display: block;
-  font-size: 25px;
 }
 
-.navbar-links li:hover{
+.navbar-links li:hover {
   background-color: #555;
 }
 
-.menu{
-  position: absolute;
-  top: 1.4rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
+.menu {
+  display: none; 
 }
 
-.menu .bar{
+.menu .bar {
   height: 3px;
   width: 100%;
   background-color: white;
   border-radius: 10px;
 }
 
-.navbuttons {
-  border: none;
-  outline: none;
-  padding: 10px 16px;
-  cursor: pointer;
-  font-size: 18px;
+@media screen and (min-width: 600px) {
+  .menu {
+    display: none; 
+  }
+  
+  .navbar li a{
+    font-size: 22px;
+  }
+
+  .navbar-links {
+    display: flex; 
+  }
+
+  .navbar-links ul {
+    flex-direction: row; 
+  }
+
+  .navbar-links li {
+    margin: 0 2px; 
+  }
+
+  .navbar-links li a {
+    padding: 1.3rem; 
+  }
 }
 
-.active, .navbuttons:hover {
-  background-color: #555;
-  color: white;
+@media screen and (max-width: 600px) {
+  .menu {
+    display: flex; 
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+
+  .menu .bar {
+    margin: 1px 0;    
+  }
+
+  .navbar-links {
+    display: none; 
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 0;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li {
+    text-align: center;
+  }
+
+  .navbar-links li a {
+    padding: .5rem 1rem; 
+    font-size: 20px;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
 }
 
 .navbuttons {
@@ -723,34 +772,6 @@ button:hover {
   .parallax4 {
     background-image: url("../images/screened.jpeg");
     min-height: 800px;
-  }
-}
-
-@media screen and (max-width: 600px){
-  .menu{
-    display: flex;
-  }
-  .navbar-links{
-    display:none;
-    width: 100%;
-  }
-  .navbar{
-    flex-direction: column;
-    align-items: flex-start;
-    min-width: 0; /* Resetting the min-width */
-  }
-  .navbar-links ul{
-    width: 100%;
-    flex-direction: column;
-  }
-  .navbar-links li{
-    text-align: center;
-  }
-  .navbar-links li a{
-    padding: .5rem 1rem;
-  }
-  .navbar-links.active{
-    display: flex;
   }
 }
 
