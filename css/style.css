@@ -612,7 +612,7 @@ button:hover {
   }
   .parallax1, .parallax2, .parallax3, .parallax4 {
     position: relative;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
