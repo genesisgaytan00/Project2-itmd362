@@ -242,7 +242,7 @@ footer{
 }
 
 .sites{
-  margin: 30px 0;
+  margin: 10px 0;
   margin-bottom: 10px;
 }
 
@@ -259,7 +259,7 @@ footer{
 
 .sites ul li a{
   color:white;
-  margin: 30px;
+  margin: 10px;
   text-decoration: none;
   font-size: 1.3em;
   opacity: 0.7;
@@ -796,11 +796,6 @@ button:hover {
 }
 
 @media screen and (min-width: 620px) {
-  .sites ul li{
-    width:100%;
-    text-align: center;
-    margin: 10px;
-  }
   .socialmedia a{
     padding: 8px;
     margin: 4px;
@@ -888,5 +883,18 @@ button:hover {
     padding-left: 60px;
     font-size: 18px;
     line-height: 30px;
+  }
+  .sites ul li{
+    width:100%;
+    text-align: center;
+    margin: 10px;
+  }
+  .sites ul li a{
+    color:white;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    margin-bottom: 10px;
   }
 }
