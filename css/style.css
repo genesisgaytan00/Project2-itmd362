@@ -175,28 +175,29 @@ footer{
 .parallax1, .parallax2, .parallax3, .parallax4 {
   background-size: 100vw auto;
   background-position: center center;  
-  background-attachment: scroll;  
+  background-attachment: fixed;  
   background-repeat: no-repeat;  
+  background-size: contain;
 }
 
 .parallax1 {
   background-image: url("../images/hummings.JPG");
-  min-height: 335px;
+  min-height: 800px;
 }
 
 .parallax2 {
   background-image: url("../images/hosts.jpg");
-  min-height: 335px;
+  min-height: 800px;
 }
 
 .parallax3 {
   background-image: url("../images/signal.jpg");
-  min-height: 287px;
+  min-height: 800px;
 }
 
 .parallax4 {
   background-image: url("../images/screened.jpeg");
-  min-height: 337px;
+  min-height: 800px;
 }
 
 .exhibitionstitle {
@@ -665,28 +666,9 @@ button:hover {
   }
   .parallax1, .parallax2, .parallax3, .parallax4 {
     position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-position: center;  
+    background-attachment: fixed;  
+    background-repeat: no-repeat;  
     background-size: cover;
-  }
-  .parallax1 {
-    background-image: url("../images/hummings.JPG");
-    min-height: 800px;
-    }
-
-  .parallax2 {
-    background-image: url("../images/hosts.jpg");
-    min-height: 800px;
-  }
-
-  .parallax3 {
-    background-image: url("../images/signal.jpg");
-    min-height: 800px;
-  }
-
-  .parallax4 {
-    background-image: url("../images/screened.jpeg");
-    min-height: 800px;
   }
 }
