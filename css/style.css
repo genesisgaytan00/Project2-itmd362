@@ -314,7 +314,8 @@ footer{
 .exhibitionstitle {
   background-color: #F2E8CF;
   text-align: center;
-  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   letter-spacing: 2px;
   font-family: "Yatra One", system-ui;
   font-weight: 400;
