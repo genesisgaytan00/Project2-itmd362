@@ -16,11 +16,9 @@ function validateForm() {
 }
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  const menu = document.querySelector(".menu");
-  const navbarLinks = document.querySelector(".navbar-links");
+const menu = document.getElementsByClassName('menu')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
 
-  menu.addEventListener("click", function() {
-    navbarLinks.classList.toggle("active");
-  });
-});
+menu.addEventListener('click',() => {
+  navbarLinks.classList.toggle('active')
+})
