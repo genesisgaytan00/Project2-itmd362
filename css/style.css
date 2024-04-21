@@ -138,6 +138,19 @@ body {
   color: white;
 }
 
+.navbuttons {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.active, .navbuttons:hover {
+  background-color: #555;
+  color: white;
+}
+
 /* Nav Bar CSS End*/
 
 /* Footer CSS Start*/
