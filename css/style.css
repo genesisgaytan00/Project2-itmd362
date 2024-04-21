@@ -604,6 +604,8 @@ button:hover {
     display: block;
     background-color: #333;
     color: white;
+    padding-top: 20px;
+    padding-bottom:20px;
   }
   #section2 p {
     background-color: transparent;
