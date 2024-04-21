@@ -406,8 +406,8 @@ section {
 }
 
 #section2 .learnmore {
-  padding: 10px 20px;
-  margin-left: 10px;
+  padding: 10px 12px;
+  width: 100%;
   background-color: #f79d00;
   color: #333;
   border: none;
@@ -466,11 +466,41 @@ section {
 }
 
 
-.button {
-  padding: 10px 20px;
-  margin-left: 10px;
+.button1 {
+  width: 100%;
   background-color: #f79d00;
   color: #333;
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;  
+  font-family: "Platypi", serif;
+  font-style: normal;
+}
+
+.button2 {
+  width: 100%;
+  background-color: #f79d00;
+  color: #333;
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;  
+  font-family: "Platypi", serif;
+  font-style: normal;
+}
+
+.button3 {
+  width: 100%;
+  background-color: #f79d00;
+  color: #333;
+  padding: 10px 12px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -672,6 +702,97 @@ button:hover {
     padding-bottom: 25px;
     font-size: 20px;
   }
+  .parallax1, .parallax2, .parallax3, .parallax4 {
+    position: relative;
+    background-position: center;  
+    background-attachment: fixed;  
+    background-repeat: no-repeat;  
+    background-size: cover;
+  }
+  .parallax1 {
+    background-image: url("../images/hummings.JPG");
+    min-height: 800px;
+  }
+
+  .parallax2 {
+    background-image: url("../images/hosts.jpg");
+    min-height: 800px;
+  }
+
+  .parallax3 {
+    background-image: url("../images/signal.jpg");
+    min-height: 800px;
+  }
+
+  .parallax4 {
+    background-image: url("../images/screened.jpeg");
+    min-height: 800px;
+  }
+  .button1 {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #f79d00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;  
+    font-family: "Platypi", serif;
+    font-style: normal;
+    width: 20%;
+  }
+  .button2 {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #f79d00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;  
+    font-family: "Platypi", serif;
+    font-style: normal;
+    width: 40%;
+  }
+  .button3 {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #f79d00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;  
+    font-family: "Platypi", serif;
+    font-style: normal;
+    width: 40%;
+  }
+  #section2 .learnmore {
+    padding: 10px 20px;
+    width: 15%;
+    background-color: #f79d00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;  
+    font-family: "Platypi", serif;
+    font-style: normal;
+  }
+  #section2 p {
+    background-color: transparent;
+  }
+  #section2 h2 {
+    background-color: transparent;
+  }
 }
 
 @media screen and (min-width: 620px) {
@@ -717,12 +838,6 @@ button:hover {
     color: white;
     padding-top: 20px;
     padding-bottom:20px;
-  }
-  #section2 p {
-    background-color: transparent;
-  }
-  #section2 h2 {
-    background-color: transparent;
   }
 }
 
@@ -773,31 +888,5 @@ button:hover {
     padding-left: 60px;
     font-size: 18px;
     line-height: 30px;
-  }
-  .parallax1, .parallax2, .parallax3, .parallax4 {
-    position: relative;
-    background-position: center;  
-    background-attachment: fixed;  
-    background-repeat: no-repeat;  
-    background-size: cover;
-  }
-  .parallax1 {
-    background-image: url("../images/hummings.JPG");
-    min-height: 800px;
-  }
-
-  .parallax2 {
-    background-image: url("../images/hosts.jpg");
-    min-height: 800px;
-  }
-
-  .parallax3 {
-    background-image: url("../images/signal.jpg");
-    min-height: 800px;
-  }
-
-  .parallax4 {
-    background-image: url("../images/screened.jpeg");
-    min-height: 800px;
   }
 }
