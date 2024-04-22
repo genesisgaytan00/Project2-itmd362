@@ -421,7 +421,8 @@ section {
   font-style: normal;
   color: #00296B;
   padding: 30px 10px 10px; 
-  background-color: #e3dfd3;
+  background: rgba(219, 217, 206, .9);
+  border-radius: 15px 15px 0px 0px;
 }
 
 #section2 p {
@@ -429,10 +430,11 @@ section {
   color: #00296B;
   margin-bottom: 30px;
   padding: 10px 10px;
-  background-color: #e3dfd3;
+  background: rgba(219, 217, 206, .9);
   font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
+  border-radius: 0px 0px 15px 15px;
 }
 
 #section2 .learnmore {
@@ -808,35 +810,9 @@ button:hover {
     font-style: normal;
     width: 40%;
   }
-  #section2 .learnmore {
-    padding: 10px 20px;
-    width: 15%;
-    background-color: #f79d00;
-    color: #333;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    font-size: 20px;
-    font-weight: 400;
-    font-style: normal;  
-    font-family: "Platypi", serif;
-    font-style: normal;
-  }
-  #section2 p {
-    background-color: transparent;
-  }
-  #section2 h2 {
-    background-color: transparent;
-  }
-  .about-yale {
-    padding: 90px 30px;
-    padding-left: 50px;
-    font-size: 18px;
-    background-color: #e3dfd3;
-  }
 }
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 720px) {
   .socialmedia a{
     padding: 8px;
     margin: 4px;
@@ -874,6 +850,32 @@ button:hover {
     color: white;
     padding-top: 20px;
     padding-bottom:20px;
+  }
+  #section2 .learnmore {
+    padding: 10px 20px;
+    width: 15%;
+    background-color: #f79d00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;  
+    font-family: "Platypi", serif;
+    font-style: normal;
+  }
+  #section2 p {
+    background-color: transparent;
+  }
+  #section2 h2 {
+    background-color: transparent;
+  }
+  .about-yale {
+    padding: 90px 30px;
+    padding-left: 50px;
+    font-size: 18px;
+    background-color: #e3dfd3;
   }
 }
 
