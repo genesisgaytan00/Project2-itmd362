@@ -421,7 +421,8 @@ section {
   font-style: normal;
   color: #00296B;
   padding: 30px 10px 10px; 
-  background-color: #e3dfd3;
+  background: rgba(219, 217, 206, .9);
+  border-radius: 15px 15px 0px 0px;
 }
 
 #section2 p {
@@ -429,10 +430,11 @@ section {
   color: #00296B;
   margin-bottom: 30px;
   padding: 10px 10px;
-  background-color: #e3dfd3;
+  background: rgba(219, 217, 206, .9);
   font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
+  border-radius: 0px 0px 15px 15px;
 }
 
 #section2 .learnmore {
