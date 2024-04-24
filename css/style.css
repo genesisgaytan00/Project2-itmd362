@@ -428,7 +428,7 @@ section {
 }
 
 #section2 p {
-  font-size: 24px;
+  font-size: 28px;
   color: #00296B;
   margin-bottom: 30px;
   padding: 10px 10px;
@@ -498,7 +498,7 @@ section {
 
 .home-p {
   padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Almarai", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -745,7 +745,7 @@ button:hover {
 @media only screen and (min-width: 1024px) {
   .about-text {
     padding-bottom: 25px;
-    font-size: 20px;
+    font-size: 23px;
   }
   .home-img{
     order: 0;
@@ -832,7 +832,7 @@ button:hover {
     margin-bottom: 200px;
     flex-direction: column;
     align-items: stretch;
-    font-family: "Platypi", serif;
+    font-family: "Almarai", sans-serif;
     font-weight: 300;
     font-style: normal;
   }
@@ -887,9 +887,9 @@ button:hover {
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     font-style: normal;  
-    font-family: "Inter", sans-serif;
+    font-family: "Almarai", sans-serif;
   }
   #section2 p {
     background-color: transparent;
@@ -950,7 +950,7 @@ button:hover {
     color: #c4450a;
     padding: 10px;
     padding-left: 60px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
   }
   .sites ul li{
