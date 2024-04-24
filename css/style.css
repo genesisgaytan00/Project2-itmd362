@@ -356,7 +356,7 @@ footer{
 .exhibitionnames {
   padding-bottom:10px;
   font: 40px;
-  font-family: "Platypi", serif;
+  font-family: "Manrope", sans-serif;
   font-weight: bold;
   font-style: normal;
 }
@@ -372,8 +372,8 @@ footer{
 }
 
 .exp {
-  font-family: "Platypi", serif;
-  font-weight: 300;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -428,15 +428,15 @@ section {
 }
 
 #section2 p {
-  font-size: 24px;
+  font-size: 28px;
   color: #00296B;
   margin-bottom: 30px;
   padding: 10px 10px;
   margin-right: -25px;
   margin-left: -25px;
-  background: rgba(219, 217, 206, .9);
-  font-family: "Platypi", serif;
-  font-weight: 400;
+  background: rgba(219, 217, 206, .9); 
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
   font-style: normal;
   border-radius: 0px 0px 15px 15px;
 }
@@ -452,7 +452,7 @@ section {
   font-size: 20px;
   font-weight: 400;
   font-style: normal;  
-  font-family: "Platypi", serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -493,14 +493,16 @@ section {
   font-family: "Yatra One", system-ui;
   font-weight: 400;
   font-style: normal;
+  color: #011b45;
 }
 
 .home-p {
   padding-bottom: 20px;
-  font-size: 18px;
-  font-family: "Platypi", serif;
-  font-weight: 400;
+  font-size: 22px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
   font-style: normal;
+  color: #011b45;
 }
 
 
@@ -513,9 +515,9 @@ section {
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;  
-  font-family: "Platypi", serif;
+  font-family: "Almarai", sans-serif;
   font-style: normal;
 }
 
@@ -528,9 +530,9 @@ section {
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;  
-  font-family: "Platypi", serif;
+  font-family: "Almarai", sans-serif;
   font-style: normal;
 }
 
@@ -543,9 +545,9 @@ section {
   cursor: pointer;
   transition: background-color 0.3s;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;  
-  font-family: "Platypi", serif;
+  font-family: "Almarai", sans-serif;
   font-style: normal;
 }
 
@@ -573,9 +575,10 @@ button:hover {
   padding-bottom: 25px;
   font-size: 20px;
   line-height: 30px;
-  font-family: "Platypi", serif;
-  font-weight: 400;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
   font-style: normal;
+  letter-spacing: 0.5px;
 }
 
 /* Login styling */
@@ -589,13 +592,13 @@ button:hover {
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   text-align: left;
-  margin-top: 200px;
+  margin-top: 100px;
   font-size: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   flex-direction: column;
   align-items: stretch;
-  font-family: "Platypi", serif;
-  font-weight: 300;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -604,8 +607,8 @@ button:hover {
   font-size: 20px;
   width: 100%;
   letter-spacing: 2px;
-  font-weight: 700;
-  font-family: "Platypi", serif;
+  font-weight: 600;
+  font-family: "Almarai", sans-serif;
   font-style: normal;
   background-color: #FFE45C;
   color: #000;
@@ -670,7 +673,7 @@ button:hover {
   margin-bottom: 70px;
   flex-direction: column;
   align-items: stretch;
-  font-family: "Platypi", serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
@@ -681,7 +684,7 @@ button:hover {
   width: 100%;
   letter-spacing: 2px;
   font-weight: 700;
-  font-family: "Platypi", serif;
+  font-family: "Almarai", sans-serif;
   font-style: normal;
   background-color: #FFE45C;
   color: #000;
@@ -742,7 +745,7 @@ button:hover {
 @media only screen and (min-width: 1024px) {
   .about-text {
     padding-bottom: 25px;
-    font-size: 20px;
+    font-size: 23px;
   }
   .home-img{
     order: 0;
@@ -775,48 +778,63 @@ button:hover {
   }
   .button1 {
     padding: 10px 20px;
-    margin-left: 10px;
+    margin-left: -2px;
     background-color: #f79d00;
     color: #333;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;  
-    font-family: "Platypi", serif;
-    font-style: normal;
+    font-family: "Almarai", sans-serif;
     width: 20%;
   }
   .button2 {
     padding: 10px 20px;
-    margin-left: 10px;
+    margin-left: -2px;
     background-color: #f79d00;
     color: #333;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;  
-    font-family: "Platypi", serif;
-    font-style: normal;
+    font-family: "Almarai", sans-serif;
     width: 40%;
   }
   .button3 {
     padding: 10px 20px;
-    margin-left: 10px;
+    margin-left: -2px;
     background-color: #f79d00;
     color: #333;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;  
-    font-family: "Platypi", serif;
-    font-style: normal;
+    font-family: "Almarai", sans-serif;
     width: 40%;
+  }
+  .loginform {
+    background-color: #F2E8CffF;
+    color: #000;
+    padding: 30px; 
+    border-radius: 15px;
+    max-width: 500px; 
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    margin-top: 200px;
+    font-size: 20px;
+    margin-bottom: 200px;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-style: normal;
   }
 }
 
@@ -861,6 +879,7 @@ button:hover {
   }
   #section2 .learnmore {
     padding: 10px 20px;
+    margin-left: -15px;
     width: 15%;
     background-color: #f79d00;
     color: #333;
@@ -868,10 +887,9 @@ button:hover {
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;  
-    font-family: "Platypi", serif;
-    font-style: normal;
+    font-family: "Almarai", sans-serif;
   }
   #section2 p {
     background-color: transparent;
@@ -932,7 +950,7 @@ button:hover {
     color: #c4450a;
     padding: 10px;
     padding-left: 60px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 30px;
   }
   .sites ul li{
