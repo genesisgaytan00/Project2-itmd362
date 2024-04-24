@@ -493,6 +493,7 @@ section {
   font-family: "Yatra One", system-ui;
   font-weight: 400;
   font-style: normal;
+  color: #00296B;
 }
 
 .home-p {
@@ -501,6 +502,7 @@ section {
   font-family: "Platypi", serif;
   font-weight: 400;
   font-style: normal;
+  color: #00296B;
 }
 
 
@@ -589,9 +591,9 @@ button:hover {
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   text-align: left;
-  margin-top: 200px;
+  margin-top: 100px;
   font-size: 20px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   flex-direction: column;
   align-items: stretch;
   font-family: "Platypi", serif;
@@ -817,6 +819,24 @@ button:hover {
     font-family: "Platypi", serif;
     font-style: normal;
     width: 40%;
+  }
+  .loginform {
+    background-color: #F2E8CffF;
+    color: #000;
+    padding: 30px; 
+    border-radius: 15px;
+    max-width: 500px; 
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: left;
+    margin-top: 200px;
+    font-size: 20px;
+    margin-bottom: 200px;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: "Platypi", serif;
+    font-weight: 300;
+    font-style: normal;
   }
 }
 
