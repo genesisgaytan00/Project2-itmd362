@@ -10,23 +10,33 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js" async></script>
 </head>
 <body>
-  <header>
-    <div class="nav" id="nav">
-      <a class="logo" href="#">
+  <!-- Header: School Logo and Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="school-logo">
+      <a href="index.html">
         <img src="images/logo.png" alt="Logo">
       </a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-      <a href="login.html" class="split">LOGIN</a>
-      <a href="exhibition.html" class="split">EXHIBITIONS</a>
-      <a href="index.html" class="split">HOME</a>
     </div>
-  </header>
+    <a href="#" class="menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html" class="navbuttons">HOME</a></li>
+        <li><a href="exhibition.html" class="navbuttons active">EXHIBITIONS</a></li>
+        <li><a href="application.html" class="navbuttons">APPLICATION</a></li>
+      </ul>
+    </div>
+  </nav>
   
   <div>
     <h2 class="exhibitionstitle">EXHIBITIONS</h2>
@@ -36,45 +46,52 @@
   <div class="exhibitiondescriptions">
     <h3 class="exhibitionnames">and the forms which linger / humming in our ears</h3>      
     <h3 class="exhibitionnames">January 20 - February 22, 2024</h3>
-    <p>Organized by Sophy Naess and Kari Rittenbach</p>
-    <p>Featuring work by 2024 MFA students in Painting/Printmaking: Adam Amram, Creighton Baxter, Sydney Cain, Zoe Cire, Earthen Clay, Haleigh Collins, Michael Cuadrado, Justin Emmanuel Dumas, Ricardo Galvan, Irisol Gonzalez-Vega, Madeleine Gray, Eloise Hess, Mei Kazama, Lauren Klotzman, Louise Mandumbwa, Laura Camila Medina, Mike Picos, Nadir Souirgi, Khalif Tahir Thompson, Katharen Wiese, and V Yeh.</p>
+    <p class="exp">Organized by Sophy Naess and Kari Rittenbach</p>
+    <p class="exp">Featuring work by 2024 MFA students in Painting/Printmaking: Adam Amram, Creighton Baxter, Sydney Cain, Zoe Cire, Earthen Clay, Haleigh Collins, Michael Cuadrado, Justin Emmanuel Dumas, Ricardo Galvan, Irisol Gonzalez-Vega, Madeleine Gray, Eloise Hess, Mei Kazama, Lauren Klotzman, Louise Mandumbwa, Laura Camila Medina, Mike Picos, Nadir Souirgi, Khalif Tahir Thompson, Katharen Wiese, and V Yeh.</p>
   </div>
 
   <div class="parallax2"></div>
   <div class="exhibitiondescriptions">
     <h3 class="exhibitionnames">The host will let you in soon</h3>
     <h3 class="exhibitionnames">November 13 - December 8, 2023</h3>
-    <p>Featuring work by Alana Liu, alexander laurent rubalcava, AM, Cate Roser, Chiara Hardy, Cleo Maloney, Dora Pang, Ellika Edelman, Ethan Shim, Eunice Kiang, Hannah Foley, Jacob Feit Mann, Kaci Xie, Kaia Mladenova, Karela Palazio, Leo Je-Eon Lee, Lily Campbell, Mazie Wong, Megan Graham, Mikiala Anuhea Ng, Nathan Puletasi, Olivia Marwell, Stephanie Wang, Talia Tax, Tilman Phleger, and Whitney Blue Toutenhoofd.</p>
+    <p class="exp">Featuring work by Alana Liu, alexander laurent rubalcava, AM, Cate Roser, Chiara Hardy, Cleo Maloney, Dora Pang, Ellika Edelman, Ethan Shim, Eunice Kiang, Hannah Foley, Jacob Feit Mann, Kaci Xie, Kaia Mladenova, Karela Palazio, Leo Je-Eon Lee, Lily Campbell, Mazie Wong, Megan Graham, Mikiala Anuhea Ng, Nathan Puletasi, Olivia Marwell, Stephanie Wang, Talia Tax, Tilman Phleger, and Whitney Blue Toutenhoofd.</p>
   </div>
   
   <div class="parallax3"></div>
   <div class="exhibitiondescriptions">
     <h3 class="exhibitionnames">a signal urgent but breaking</h3>
     <h3 class="exhibitionnames">January 30 - February 22, 2023</h3>
-    <p>Organized by Kristen Hileman and Rachelle Dang</p>
-    <p>Featuring work by 2023 MFA students in Painting/Printmaking: Alexandria Couch, Stephano Espinoza Galarza, Daniela Gomez Paz, Jonathan Herrera Soto, Soren Hope, Christopher Paul Jordan, Fiza Khatri, Estelle Maisonett, Tura Oliveira, Can Yağız, Ang Ziqi Zhang, Emmanuel Amoakohene, Hunter Foster, Rina Goldfield, Nina Hartmann, Erick Alejandro Hernández, Natia Lemay, Phoebe Little, Maya Perry, Gabriela Rassi, Bryan Ali Sanchez, and María Vargas Aguilar.</p>
+    <p class="exp">Organized by Kristen Hileman and Rachelle Dang</p>
+    <p class="exp">Featuring work by 2023 MFA students in Painting/Printmaking: Alexandria Couch, Stephano Espinoza Galarza, Daniela Gomez Paz, Jonathan Herrera Soto, Soren Hope, Christopher Paul Jordan, Fiza Khatri, Estelle Maisonett, Tura Oliveira, Can Yağız, Ang Ziqi Zhang, Emmanuel Amoakohene, Hunter Foster, Rina Goldfield, Nina Hartmann, Erick Alejandro Hernández, Natia Lemay, Phoebe Little, Maya Perry, Gabriela Rassi, Bryan Ali Sanchez, and María Vargas Aguilar.</p>
   </div>
   
   <div class="parallax4"></div>
   <div class="exhibitiondescriptions">
     <h3 class="exhibitionnames">SCREENED</h3>
     <h3 class="exhibitionnames">November 28, 2022 – January 10, 2023</h3>
-    <p>Curated by Doruk Eliacik, this exhibition features work by undergraduate art majors taking Yale School of Art courses through Yale College: Anasthasia Shilov, Avery Mitchell, Catherine Webb, Diego Miró-Rivera, Doruk Eliacik, Emme Zhou, Hannah Chaves Raman Neves, Linna Yao, Marshall Barg, Rudd Fawcett, Serena Cheng, Rosa Chang, Michelle Li, Lauren Song, Alex Taranto, Thaïs Shepard, John Sedrak, Ellika Edelman, Yuri Bong, Ethan Shim, Charlie Gleberman, Samantha Trimboli, Joyce Wu, Jaylan Granberry, Eric Doddy, and Anna Zhang.</p>
+    <p class="exp">Curated by Doruk Eliacik, this exhibition features work by undergraduate art majors taking Yale School of Art courses through Yale College: Anasthasia Shilov, Avery Mitchell, Catherine Webb, Diego Miró-Rivera, Doruk Eliacik, Emme Zhou, Hannah Chaves Raman Neves, Linna Yao, Marshall Barg, Rudd Fawcett, Serena Cheng, Rosa Chang, Michelle Li, Lauren Song, Alex Taranto, Thaïs Shepard, John Sedrak, Ellika Edelman, Yuri Bong, Ethan Shim, Charlie Gleberman, Samantha Trimboli, Joyce Wu, Jaylan Granberry, Eric Doddy, and Anna Zhang.</p>
   </div>
   
   <!-- Footer: Copyright, Address, Social Media, and Contact Information -->
   <footer>
     <div class="footerlinks">
-      <div class="socialmedia">
-        <a href="https://www.facebook.com/YaleSchoolofArt/"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://www.instagram.com/yaleschoolofart/"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://www.youtube.com/channel/UCDwJT0mYodTSodcpH-hGmdA"><i class="fa-brands fa-youtube"></i></a>
+      <div class="sites1">
+        <ul>
+          <li><a class="socials" href="https://www.facebook.com/YaleSchoolofArt/" target="_blank"><img src="images/fb.png" alt="facebook"></a></li>
+          <li><a class="socials" href="https://www.instagram.com/yaleschoolofart/" target="_blank"><img src="images/insta.png" alt="instagram"></a></li>
+          <li><a class="socials" href="https://www.youtube.com/channel/UCDwJT0mYodTSodcpH-hGmdA" target="_blank"><img src="images/yt.png" alt="youtube"></a></li>
+        </ul>
       </div>
       <div class="sites">
         <ul>
-          <li><a href="https://www.art.yale.edu/about/support-the-school">Support Us</a></li>
-          <li><a href="https://www.art.yale.edu/about/visiting">Visit</a></li>
-          <li><a href="https://www.art.yale.edu/about/contact">Contact</a></li>
+          <li><a href="https://www.art.yale.edu/about/support-the-school" target="_blank">Support Us</a></li>
+          <li><a href="https://www.art.yale.edu/about/visiting" target="_blank">Visit Us</a></li>
+          <li><a href="https://www.art.yale.edu/about/contact" target="_blank">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="top">
+        <ul>
+          <li><a href="#navbar">Back to the top of the page ↑</a></li>
         </ul>
       </div>
     </div>

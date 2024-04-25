@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Login</title>
+  <title>Application</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" media="screen" href="css/style.css">
@@ -17,9 +17,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js" async></script>
 </head>
-<body class="login-body">
+<body class="app-body">
   <!-- Header: School Logo and Navigation Bar -->
-  <nav class="navbar">
+  <nav class="navbar" id="navbar">
     <div class="school-logo">
       <a href="index.html">
         <img src="images/logo.png" alt="Logo">
@@ -34,30 +34,58 @@
       <ul>
         <li><a href="index.html" class="navbuttons">HOME</a></li>
         <li><a href="exhibition.html" class="navbuttons">EXHIBITIONS</a></li>
-        <li><a href="application.html" class="navbuttons">APPLICATION</a></li>
+        <li><a href="application.html" class="navbuttons active">APPLICATION</a></li>
       </ul>
     </div>
   </nav>
   
-  <div id ="login-header">
+  <div id ="application-header">
     <h1>Yale School of Art</h1>
-    <h2>Student Login</h2>
+    <h2>Fall 2024 Application</h2>
   </div>
   
   <main>
     <!-- login form goes here -->
-    <form class="loginform" id="login-form" onsubmit="return validateForm2()" action="#null" method="get" autocomplete="on">
+    <form name="appform" class="applicationform" id="application-form" onsubmit="return validateForm()" action="#null" method="get" autocomplete="on">
       <div>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
       </div>
       <div>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
       </div>
-      <button type="submit" onclick="myFunction2()">Sign in and begin!</button>
-      <h3>Need Help Logining In?</h3>
-      <button onclick="window.location.href='https://www.art.yale.edu/about/contact'">Contact Us</button>
+      <div>
+        <label for="mname">Middle Name:</label>
+        <input type="text" id="mname" name="mname">
+      </div>
+      <div>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+      </div>
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+      </div>
+      <div>
+        <label for="gender">Gender: </label>
+        <select id="gender" name="gender">
+          <option value="select">-- Select --</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="nonbinary">Non-binary</option>
+          <option value="other">Prefer not to say</option>
+        </select>
+      </div>
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="123456789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+      </div>  
+      <div>
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+      </div>
+      <button type="submit" onclick="myFunction()">APPLY NOW</button>
     </form>
   </main>
   
@@ -76,6 +104,11 @@
           <li><a href="https://www.art.yale.edu/about/support-the-school" target="_blank">Support Us</a></li>
           <li><a href="https://www.art.yale.edu/about/visiting" target="_blank">Visit Us</a></li>
           <li><a href="https://www.art.yale.edu/about/contact" target="_blank">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="top">
+        <ul>
+          <li><a href="#navbar">Back to the top of the page ↑</a></li>
         </ul>
       </div>
     </div>

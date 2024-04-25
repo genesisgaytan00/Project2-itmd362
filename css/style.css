@@ -1,13 +1,13 @@
 body {
   margin: 0;
   height: 100%;
-  font-family: "Merriweather", serif;
+  font-family: "Courier New", "Courier", monospace;
   font-weight: 400;
 }
 
 .login-body {
   background-image: url('../images/login.JPG');
-  min-height: 1200px;
+  min-height: 1275px;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,25 +16,33 @@ body {
 }
 
 
-/* Nav Bar CSS Start*/
-.nav {
-  overflow: hidden;
-  background-color: #333;
+.app-body {
+  background-image: url('../images/yales.jpg');
+  min-height: 100px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
 }
+
+
+/* Nav Bar CSS Start*/
+/*
 
 .nav a {
   float: left;
   color: #f2f2f2;
-  padding: 12px 16px;
+  padding: 10px 10px;
   text-decoration: none;
-  font-size: 20px;
-  height: 65px;
+  font-size: 16px;
+  height: 65px; 
 }
 
 .nav a:hover {
   background-color: #ddd;
   color: black;
 }
+
 .nav a.split:hover {
   background-color: #ddd;
   color: black;
@@ -42,26 +50,133 @@ body {
 
 .nav a.split {
   float: right;
+  padding-top: 25px;
+  padding-bottom:20px;
   display: block;
   background-color: #333;
   color: white;
 }
 
-.nav .icon {
-  display: none;
+.nav {
+  overflow: hidden;
+  background-color: #333;
+  font-family: "Yatra One", system-ui;
 }
 
 .logo img{
   width: 40px;
+}
+*/
+.school-logo img {
+  width: 40px;
+  margin: .5rem;
+}
+
+
+.navbar{
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  min-width: 320px;
+  font-family: "Yatra One", system-ui;
+  font-size: 20px;
+}
+
+.school-logo img{
+  width: 50px;
+  margin: .5rem;
+}
+
+.navbar-links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li{
+  list-style: none;
+}
+
+.navbar-links li a{
+  text-decoration: none;
+  color: white;
+  padding: 1.5rem;
+  display: block;
+  font-size: 25px;
+}
+
+.navbar-links li:hover{
+  background-color: #555;
+}
+
+.menu{
+  position: absolute;
+  top: 1.5rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+}
+
+.menu .bar{
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px){
+  .menu{
+    display: flex;
+  }
+  .navbar-links{
+    display:none;
+    width: 100%;
+  }
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 0; /* Resetting the min-width */
+  }
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar-links li{
+    text-align: center;
+  }
+  .navbar-links li a{
+    padding: 1rem 1rem;
+  }
+  .navbar-links.active{
+    display: flex;
+  }
+}
+
+.navbuttons {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.active, .navbuttons:hover {
+  background-color: #555;
+  color: white;
 }
 
 /* Nav Bar CSS End*/
 
 /* Footer CSS Start*/
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .footer {
@@ -71,154 +186,195 @@ body {
 }
 
 footer{
-    background-color: #333;
-    position: relative;
+  background-color: #333;
+  position: relative;
 }
 
 .footerlinks{
-    width: 100%;
-    padding: 30px 30px 20px ;
-    position: relative;
+  width: 100%;
+  padding: 30px 30px 20px ;
+  position: relative;
+}
+
+.socials img{
+  width: 40px;
 }
 
 .socialmedia{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .socialmedia a{
-    text-decoration: none;
-    padding:  10px;
-    background-color: white;
-    margin: 10px;
-    border-radius: 50%;
-}
-
-.socialmedia a i{
-    font-size: 2em;
-    color: #333;
-    opacity: 0.8;
+  text-decoration: none;
+  padding:  10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
 }
 
 .socialmedia a:hover{
-    background-color: #333;
-}
-
-.socialmedia a:hover i{
-    color: white;
-}
-
-.sites{
-    margin: 30px 0;
-    margin-bottom: 10px;
-}
-
-.sites ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-}
-
-.sites ul li a{
-    color:white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
-}
-
-.sites1 ul li a:hover{
-    opacity: 1;
-}
-
-.sites1 {
-    margin: 30px 0;
-    margin-bottom: 10px;
+  background-color: #333;
 }
 
 .sites1 ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 
 .sites1 ul li a{
-    color:white;
-    margin: 20px;
-    text-decoration: none;
-    font-size: 1.3em;
-    opacity: 0.7;
+  color:white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 1;
+}
+
+.sites1 ul li a:hover{
+  opacity: 0.7;
+}
+
+.sites1 {
+  margin: 30px 0;
+  margin-bottom: 10px;
+}
+
+.sites{
+  margin: 10px 0;
+  margin-bottom: 10px;
+}
+
+.sites ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.sites ul li{
+  display: flex;
+  flex-direction: column;
+}
+
+.sites ul li a{
+  color:white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  margin-bottom: 10px;
 }
 
 .sites ul li a:hover{
-    opacity: 1;
+  opacity: 1;
+}
+
+.top{
+  margin: 10px 0;
+  margin-bottom: 10px;
+}
+
+.top ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.top ul li{
+  display: flex;
+  flex-direction: column;
+}
+
+.top ul li a{
+  color:white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+.top ul li a:hover{
+  opacity: 1;
 }
 
 .copyright{
-    background-color: #000;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    position: relative;
-    margin-top: 20px;
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 /* Footer CSS End*/
 
 /* Parallax CSS Start*/
 .parallax1, .parallax2, .parallax3, .parallax4 {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-size: 100vw auto;
+  background-position: center center;  
+  background-attachment: scroll;  
+  background-repeat: no-repeat;  
   background-size: cover;
 }
 
 .parallax1 {
   background-image: url("../images/hummings.JPG");
-  min-height: 800px;
+  min-height: 250px;
 }
 
 .parallax2 {
   background-image: url("../images/hosts.jpg");
-  min-height: 800px;
+  min-height: 250px;
 }
 
 .parallax3 {
   background-image: url("../images/signal.jpg");
-  min-height: 800px;
+  min-height: 250px;
 }
 
 .parallax4 {
   background-image: url("../images/screened.jpeg");
-  min-height: 800px;
+  min-height: 250px;
 }
 
 .exhibitionstitle {
   background-color: #F2E8CF;
   text-align: center;
-  padding: 30px 80px;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-  font-size: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 2px;
   font-family: "Yatra One", system-ui;
   font-weight: 400;
   font-style: normal;
   color: #111;
+  font-size: 50px;
 }
 
 .exhibitionnames {
   padding-bottom:10px;
   font: 40px;
+  font-family: "Manrope", sans-serif;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .exhibitiondescriptions {
   color: #777;
   background-color: #F2E8CF;
   text-align:center;
-  padding:80px 80px;
-  text-align: justify;
+  padding:50px 30px;
+  text-align: left;
   font-size: 20px;
+  line-height:30px;
+}
+
+.exp {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #school-info {
@@ -264,27 +420,39 @@ section {
   font-weight: 400;
   font-style: normal;
   color: #00296B;
-  padding: 30px 10px 10px;   
+  padding: 30px 10px 10px;
+  margin-right: -25px;
+  margin-left: -25px;  
+  background: rgba(219, 217, 206, .9);
+  border-radius: 15px 15px 0px 0px;
 }
 
 #section2 p {
-  font-size: 24px;
+  font-size: 28px;
   color: #00296B;
   margin-bottom: 30px;
   padding: 10px 10px;
+  margin-right: -25px;
+  margin-left: -25px;
+  background: rgba(219, 217, 206, .9); 
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 0px 0px 15px 15px;
 }
 
 #section2 .learnmore {
-  padding: 10px 20px;
-  margin-left: 10px;
+  padding: 10px 12px;
+  width: 100%;
   background-color: #f79d00;
   color: #333;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  font-size: 18px;
-  font-family: "Merriweather", serif;
+  font-size: 20px;
   font-weight: 400;
+  font-style: normal;  
+  font-family: "Inter", sans-serif;
   font-style: normal;
 }
 
@@ -295,14 +463,14 @@ section {
 
 .home {
   background-color: #FFF;
-  display: flex;
+  display: grid;
+  flex-direction: row;
   padding: 10px;
-  align-items: center;
 }
 
 .home-img {
-  width: 45%;
-  padding-left: 60px;
+  width: 100%;
+  order: -1;
 }
 
 .home-img img {
@@ -310,38 +478,76 @@ section {
 }
 
 .home-text {
-  width: 45%;
-  color: #c4450a;
-  padding: 10px;
-  padding-left: 60px;
-  font-size: 18px;
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
   line-height: 30px;
+  color: #c4450a;
 }
 
 .home-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font-size: 40px;
   font-family: "Yatra One", system-ui;
   font-weight: 400;
   font-style: normal;
+  color: #011b45;
 }
 
 .home-p {
   padding-bottom: 20px;
+  font-size: 22px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #011b45;
 }
 
 
-button {
-  padding: 10px 20px;
+.button1 {
+  width: 100%;
   background-color: #f79d00;
   color: #333;
+  padding: 10px 12px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s;
-  font-size: 16px;
-  font-family: "Merriweather", serif;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;  
+  font-family: "Almarai", sans-serif;
+  font-style: normal;
+}
+
+.button2 {
+  width: 100%;
+  background-color: #f79d00;
+  color: #333;
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;  
+  font-family: "Almarai", sans-serif;
+  font-style: normal;
+}
+
+.button3 {
+  width: 100%;
+  background-color: #f79d00;
+  color: #333;
+  padding: 10px 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 20px;
+  font-weight: 700;
+  font-style: normal;  
+  font-family: "Almarai", sans-serif;
   font-style: normal;
 }
 
@@ -350,8 +556,8 @@ button:hover {
 }
 
 .about-yale {
-  padding: 90px 30px;
-  padding-left: 50px;
+  padding: 30px 20px;
+  padding-left: 20px;
   font-size: 18px;
   background-color: #e3dfd3;
 }
@@ -367,29 +573,72 @@ button:hover {
 
 .about-text {
   padding-bottom: 25px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.5px;
 }
 
 /* Login styling */
 
 .loginform {
-  background-color: #f2e8cff5;
+  background-color: #F2E8CffF;
+  color: #000;
   padding: 30px; 
   border-radius: 15px;
   max-width: 500px; 
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
-  text-align: center;
+  text-align: left;
   margin-top: 100px;
   font-size: 20px;
+  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: "Almarai", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .loginform button {
   display: block;
-  margin: 35px;
+  font-size: 20px;
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: "Almarai", sans-serif;
+  font-style: normal;
+  background-color: #FFE45C;
+  color: #000;
+  border-color: #000;
+}
+
+.loginform button:hover {
+  background-color: #f79d00;
+}
+
+.loginform label {
+  margin: 5px 10px 5px 0;
+}
+
+.loginform input {
+    margin: 5px 0;
+    width: 100%;
 }
 
 .loginform div {
   margin-bottom: 35px; 
+}
+
+.loginform h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#login-header h2{
+  font-size: 20px;
 }
 
 #login-header {
@@ -407,7 +656,84 @@ button:hover {
   font-family: "Yatra One", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 40px;
+}
+
+.applicationform {
+  background-color: #00356ffb;
+  color: #fff;
+  padding: 30px; 
+  border-radius: 15px;
+  max-width: 500px; 
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  text-align: left;
+  margin-top: 70px;
+  font-size: 20px;
+  margin-bottom: 70px;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.applicationform button {
+  display: block;
+  font-size: 20px;
+  width: 100%;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-family: "Almarai", sans-serif;
+  font-style: normal;
+  background-color: #FFE45C;
+  color: #000;
+  border-color: #000;
+}
+
+.applicationform button:hover {
+  background-color: #f79d00;
+}
+
+.applicationform div {
+  margin-bottom: 35px; 
+}
+
+
+.applicationform label {
+  margin: 5px 10px 5px 0;
+}
+
+.applicationform input {
+    margin: 5px 0;
+    width: 100%;
+}
+
+.applicationform select {
+    margin: 10px 0;
+    width: 100%;
+}
+
+#application-header {
+  background-color: #00356b;
+  text-align:center;
+  padding:30px 80px;
+  text-align:center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+#application-header h1{
+  font-family: "Yatra One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#application-header h2{
+  font-size: 20px;
 }
 
 .footer {
@@ -416,98 +742,253 @@ button:hover {
   width: 100%;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
+  .about-text {
+    padding-bottom: 25px;
+    font-size: 23px;
+  }
+  .home-img{
+    order: 0;
+  }
   .parallax1, .parallax2, .parallax3, .parallax4 {
-    background-attachment: scroll;
+    position: relative;
+    background-position: center;  
+    background-attachment: fixed;  
+    background-repeat: no-repeat;  
+    background-size: cover;
   }
-}
+  .parallax1 {
+    background-image: url("../images/hummings.JPG");
+    min-height: 800px;
+  }
 
-@media screen and (max-width: 600px) {
-  .nav a:not(:first-child) {display: none;}
-  .nav a.icon {
-    float: right;
-    display: block;
+  .parallax2 {
+    background-image: url("../images/hosts.jpg");
+    min-height: 800px;
   }
-  .nav.responsive {position: relative;}
-  .nav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
+
+  .parallax3 {
+    background-image: url("../images/signal.jpg");
+    min-height: 800px;
   }
-  .nav.responsive a {
-    float: none;
-    display: block;
+
+  .parallax4 {
+    background-image: url("../images/screened.jpeg");
+    min-height: 800px;
+  }
+  .button1 {
+    padding: 10px 20px;
+    margin-left: -2px;
+    background-color: #f79d00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;  
+    font-family: "Almarai", sans-serif;
+    width: 20%;
+  }
+  .button2 {
+    padding: 10px 20px;
+    margin-left: -2px;
+    background-color: #f79d00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;  
+    font-family: "Almarai", sans-serif;
+    width: 40%;
+  }
+  .button3 {
+    padding: 10px 20px;
+    margin-left: -2px;
+    background-color: #f79d00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;  
+    font-family: "Almarai", sans-serif;
+    width: 40%;
+  }
+  .loginform {
+    background-color: #F2E8CffF;
+    color: #000;
+    padding: 30px; 
+    border-radius: 15px;
+    max-width: 500px; 
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     text-align: left;
-  }
-  .home {
-    background-color: #FFF;
-    display: grid;
-    padding: 10px;
-  }
-  .home-img {
-    width: 100%;
-    padding-left: 0;
-  }
-  .home-img img {
-    width: 100%;
-  }
-  .home-text {
-    width: 100%;
-    padding: 0;
-    font-size: 16px;
-    line-height: 30px;
-  }
-  #section2 p {
-    background-color: #e3dfd3;
-  }
-  #section2 h2 {
-    background-color: #e3dfd3;
-  }
-  .parallax1, .parallax2, .parallax3, .parallax4 {
-    background-size: 100vw auto;
-    background-position: center center;      
-  }
-  .exhibitionstitle {
-    background-color: #F2E8CF;
-    text-align: center;
-    padding: 0;
-    letter-spacing: 0;
-    font-family: "Yatra One", system-ui;
-    font-weight: 400;
+    margin-top: 200px;
+    font-size: 20px;
+    margin-bottom: 200px;
+    flex-direction: column;
+    align-items: stretch;
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
     font-style: normal;
-    color: #111;
   }
 }
 
-@media screen and (min-width: 620px) {
-  .sites ul li{
-    width:100%;
-    text-align: center;
-    margin: 10px;
-  }
+@media screen and (min-width: 720px) {
   .socialmedia a{
     padding: 8px;
     margin: 4px;
   }
-    .login-body {
+  .login-body {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .parallax1, .parallax2, .parallax3, .parallax4 {
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  .nav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Yatra One", system-ui;
+  }
+  .nav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    height: 65px;
+  }
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .nav a.split:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .nav a.split {
+    float: right;
+    display: block;
+    background-color: #333;
+    color: white;
+    padding-top: 20px;
+    padding-bottom:20px;
+  }
+  #section2 .learnmore {
+    padding: 10px 20px;
+    margin-left: -15px;
+    width: 15%;
+    background-color: #f79d00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;  
+    font-family: "Almarai", sans-serif;
+  }
+  #section2 p {
+    background-color: transparent;
+  }
+  #section2 h2 {
+    background-color: transparent;
+  }
+  .about-yale {
+    padding: 90px 30px;
+    padding-left: 50px;
+    font-size: 18px;
+    background-color: #e3dfd3;
   }
 }
 
 @media screen and (min-width: 940px) {
   body {
-  margin: 0;
-  height: 100%;
-  font-family: "Merriweather", serif;
-  font-weight: 400;
+    margin: 0;
+    height: 100%;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
   } 
+  .exhibitionstitle {
+    background-color: #F2E8CF;
+    text-align: center;
+    padding: 30px 80px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-family: "Yatra One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #111;
+  }
+  .exhibitiondescriptions {
+    color: #777;
+    background-color: #F2E8CF;
+    text-align:center;
+    padding:80px 80px;
+    text-align: justify;
+    font-size: 20px;
+    line-height:30px;
+  }
+  .home {
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+  }
+  .home-img {
+    width: 45%;
+    padding-left: 60px;
+  }
+  .home-img img {
+    width: 100%;
+  }
+  .home-text {
+    width: 45%;
+    color: #c4450a;
+    padding: 10px;
+    padding-left: 60px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .sites ul li{
+    width: 20%;
+    text-align: center;
+  }
+  .sites ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    margin-bottom: 20px;
+  }
+  .top ul li{
+    width: 100%;
+    text-align: center;
+  }
+  .top ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+  }
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 40px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 4px;
+  }
 }
